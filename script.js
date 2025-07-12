@@ -1,18 +1,216 @@
 const questions = [
 
   {
-    "question": "বোর্ড অব ডিরেকটরস (Board of Directors)-র উপর নিয়ন্ত্রণ প্রতিষ্ঠার জন্য নিম্নলিখিত কোন্টি গঠিত হয়েছিল?",
-    "options": [
-      "বোর্ড অব কন্ট্রোল (Board of Control)",
-      "বোর্ড অব অ্যাডমিনিসট্রেটরস্ (Board of Administrators)",
-      "এক্সিকিউটিভ কাউন্সিল (Executive Council)",
-      "উপরোক্ত সবকটি"
-    ],
-    "answer": "বোর্ড অব কন্ট্রোল (Board of Control)",
-    "userAnswer": null,
-    "status": null
+    question: "জৈন ধর্মের প্রতিষ্ঠাতা কাকে মনে করা হয়?",
+    options: ["বুদ্ধ", "ঋষভদেব", "অশোক", "চাণক্য"],
+    answer: "ঋষভদেব",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "শেষ তীর্থঙ্কর কে ছিলেন?",
+    options: ["ঋষভদেব", "অজিতনাথ", "বাহুবলি", "মহাবীর"],
+    answer: "মহাবীর",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "মহাবীরের প্রকৃত নাম কী ছিল?",
+    options: ["বিম্বিসার", "সিদ্ধার্থ", "বর্ধমান", "গৌতম"],
+    answer: "বর্ধমান",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "মহাবীর কোন বংশে জন্মগ্রহণ করেন?",
+    options: ["শাক্য", "কৌরব", "লিচ্ছবি", "ক্ষত্রিয়"],
+    answer: "ক্ষত্রিয়",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈন ধর্মে 'অহিংসা' কিসের মূলনীতি?",
+    options: ["তপস্যা", "যোগ", "ধর্মাচরণ", "নৈতিক জীবন"],
+    answer: "ধর্মাচরণ",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈন ধর্ম অনুযায়ী, কতজন তীর্থঙ্কর আছেন?",
+    options: ["১০", "১২", "২৪", "৩৩"],
+    answer: "২৪",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈন ধর্মে 'ত্রিরত্ন' বলতে কী বোঝানো হয়?",
+    options: ["তিন দেবতা", "তিন তীর্থ", "সত্য, অহিংসা, ধ্যান", "সঠিক বিশ্বাস, সঠিক জ্ঞান, সঠিক আচরণ"],
+    answer: "সঠিক বিশ্বাস, সঠিক জ্ঞান, সঠিক আচরণ",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈন ধর্মে কোন দেবতাকে আরাধনা করা হয় না?",
+    options: ["বিষ্ণু", "শিব", "তীর্থঙ্কর", "ইন্দ্র"],
+    answer: "ইন্দ্র",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈন ধর্ম মতে 'মোক্ষ' কী?",
+    options: ["জন্ম-মৃত্যুর বন্ধন ছিন্ন করা", "স্বর্গে যাওয়া", "পুনর্জন্ম", "অর্থ লাভ"],
+    answer: "জন্ম-মৃত্যুর বন্ধন ছিন্ন করা",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈন ধর্মের প্রধান ধর্মগ্রন্থ কী?",
+    options: ["বেদ", "অগ্নিপুরাণ", "আগম", "ত্রিপিটক"],
+    answer: "আগম",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "মহাবীর কোথায় জন্মগ্রহণ করেন?",
+    options: ["লুম্বিনী", "বোধগয়া", "কুশীনগর", "কুণ্ডগ্রাম"],
+    answer: "কুণ্ডগ্রাম",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "মহাবীর কত বছর তপস্যা করেন?",
+    options: ["৬ বছর", "১২ বছর", "১০ বছর", "৮ বছর"],
+    answer: "১২ বছর",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "মহাবীর কবে মোক্ষ লাভ করেন?",
+    options: ["৩০ বছর বয়সে", "৭২ বছর বয়সে", "৬৩ বছর বয়সে", "৮০ বছর বয়সে"],
+    answer: "৭২ বছর বয়সে",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈন ধর্মে সংসার থেকে মুক্তি পাওয়াকে কী বলা হয়?",
+    options: ["নির্বাণ", "মোক্ষ", "যোগ", "সমাধি"],
+    answer: "মোক্ষ",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "মহাবীরের অনুসারীরা কী নামে পরিচিত?",
+    options: ["শ্রমণ", "ভিক্ষু", "যোগী", "পণ্ডিত"],
+    answer: "শ্রমণ",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈন ধর্ম অনুসারে আত্মা কেমন?",
+    options: ["নশ্বর", "অশুভ", "অবিনশ্বর", "ভীতিপ্রদ"],
+    answer: "অবিনশ্বর",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈন ভিক্ষুদের পরিধান কেমন হয়?",
+    options: ["গেরুয়া বসন", "সাদা বা নিরাবরণ", "নীল বসন", "সোনালী বসন"],
+    answer: "সাদা বা নিরাবরণ",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈন ধর্মে মহাবীরের আগে কত তীর্থঙ্কর ছিলেন?",
+    options: ["২১", "২২", "২৩", "২৪"],
+    answer: "২৩",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈন ধর্ম কাকে স্রষ্টা হিসেবে মানে?",
+    options: ["কোনও ঈশ্বরকে না", "ব্রহ্মা", "বিষ্ণু", "মহেশ্বর"],
+    answer: "কোনও ঈশ্বরকে না",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈন ধর্ম কোন ভাষায় প্রাথমিকভাবে রচিত হয়েছিল?",
+    options: ["সংস্কৃত", "পালি", "প্রাকৃত", "তামিল"],
+    answer: "প্রাকৃত",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "মহাবীর কোথায় নির্বাণ লাভ করেন?",
+    options: ["বুদ্ধগয়া", "পাওয়া", "নালন্দা", "রাজগৃহ"],
+    answer: "পাওয়া",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈন ধর্মে 'অপরিগ্রহ' মানে কী?",
+    options: ["সম্পত্তির পরিত্যাগ", "দয়া করা", "সত্য বলা", "তপস্যা"],
+    answer: "সম্পত্তির পরিত্যাগ",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈন ধর্মে 'অনেকান্তবাদ' কী বোঝায়?",
+    options: ["এক মত", "বহু দৃষ্টিভঙ্গি", "দুই দৃষ্টিভঙ্গি", "নিরপেক্ষতা"],
+    answer: "বহু দৃষ্টিভঙ্গি",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈন ধর্ম কত ভাগে বিভক্ত?",
+    options: ["২", "৩", "৪", "১"],
+    answer: "২",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "দুইটি প্রধান জৈন সম্প্রদায় কী?",
+    options: ["হীনযান ও মহাযান", "স্বেতাম্বর ও দিগম্বর", "বৌদ্ধ ও জৈন", "শৈব ও বৈষ্ণব"],
+    answer: "স্বেতাম্বর ও দিগম্বর",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈন ধর্মের লক্ষ্য কী?",
+    options: ["রাজ্য জয়", "অর্থ অর্জন", "মোক্ষ লাভ", "শিক্ষা লাভ"],
+    answer: "মোক্ষ লাভ",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "মহাবীর কাকে গুরু মানতেন?",
+    options: ["কোনো গুরু ছিলেন না", "পাশ্বনাথ", "বুদ্ধ", "ঋষভদেব"],
+    answer: "পাশ্বনাথ",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈন ধর্মের প্রাচীন উপাসনা পদ্ধতি কী ছিল?",
+    options: ["বেদ পাঠ", "পশুবলি", "যোগ ও তপস্যা", "যজ্ঞ"],
+    answer: "যোগ ও তপস্যা",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "মহাবীর কোন ভাষায় প্রচার করেছিলেন?",
+    options: ["সংস্কৃত", "পালি", "প্রাকৃত", "তামিল"],
+    answer: "প্রাকৃত",
+    userAnswer: null,
+    status: null
+  },
+  {
+    question: "জৈনদের প্রধান নৈতিক আদর্শ কোনটি?",
+    options: ["অহিংসা", "বলি", "সাম্যবাদ", "উন্নয়ন"],
+    answer: "অহিংসা",
+    userAnswer: null,
+    status: null
   }
-];
+]
 
 
 let currentQuestionIndex = 0;
